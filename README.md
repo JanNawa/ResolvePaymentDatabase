@@ -63,10 +63,10 @@ Check several condition:
 * the sum of all orders need to be the same as the amount on cheque
 If all the conditions are met, then update checkNumber in orders and add new payment to payments.
 ### unpaidOrders
-	retrieve the unpaid orders (excluded the order that is canceled and disputed) 
-	by finding the checkNumber that is null in orders table
+retrieve the unpaid orders (excluded the order that is canceled and disputed) 
+by finding the checkNumber that is null in orders table
 ### unknownPayments
-	retrieve the unknown payments from payments where matchOrder is 'NO'
+retrieve the unknown payments from payments where matchOrder is 'NO'
 
 ## Limitations
 * when reconcile the payment, focus on same number of total amount in order and amount in cheque and
