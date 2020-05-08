@@ -1,4 +1,4 @@
-# ResolvePaymentDatabas
+# Resolve Payment Database
 This program uses to match up the payment to the order from the existing database.
 Additional fields are added to some tables. Solution designs to have minimum change in database.
 
